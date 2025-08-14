@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data-types", "data-types\da
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "converting-strings-to-numbers", "converting-strings-to-numbers\converting-strings-to-numbers.csproj", "{DE9CAF14-72F8-480E-9114-193C054070BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "working-with-strings", "working-with-strings\working-with-strings.csproj", "{3A40CDF1-5AEE-4C5A-9A2C-21302FC17F39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{DE9CAF14-72F8-480E-9114-193C054070BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9CAF14-72F8-480E-9114-193C054070BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE9CAF14-72F8-480E-9114-193C054070BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A40CDF1-5AEE-4C5A-9A2C-21302FC17F39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A40CDF1-5AEE-4C5A-9A2C-21302FC17F39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A40CDF1-5AEE-4C5A-9A2C-21302FC17F39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A40CDF1-5AEE-4C5A-9A2C-21302FC17F39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
