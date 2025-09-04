@@ -11,11 +11,14 @@ namespace console_class
         static void Main(string[] args)
         {
 
-            Console.ForegroundColor = ConsoleColor.Green;
+            Console.ForegroundColor = ConsoleColor.Black;
             Console.BackgroundColor = ConsoleColor.White;
             Console.Clear(); //Console.Clear() wipes the screen and fills the entire buffer with the current background color, then moves the cursor to the top-left.
 
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("What's your name?");
+            string name = Console.ReadLine();
+            Console.WriteLine($"Hello, {name}"); //This is string interpolation.
+            Console.WriteLine("Hello, " + name); //This is string concatenation.
 
         }
     }
